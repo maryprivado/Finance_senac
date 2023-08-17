@@ -2,7 +2,7 @@ from django.db import models
 from perfil.models import Categoria, Conta
 # Create your models here.
 
-class valores(models.Model):
+class Valores(models.Model):
     choice_tipo = (
         ('E','ENTRADA'),
         ('S','SAIDA')
