@@ -18,6 +18,6 @@ def update_valor_categoria(request, id):
 
     return JsonResponse({'status': 'Sucesso'})
 
-def ver_planejamneto(request):
+def ver_planejamento(request):
     categorias = Categoria.objects.all()
-    return render(request, 'ver_planejamneto.html', {'categorias': categorias})
+    return render(request, 'ver_planejamento.html', {'categorias': categorias})

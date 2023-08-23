@@ -26,6 +26,7 @@ urlpatterns = [
     path('perfil/', include('perfil.urls')),
     path('extrato/', include('extrato.urls')),
     path('planejamento/', include('planejamento.urls')),
+    path('contas/', include('contas.urls')),
     path('', RedirectView.as_view(url='perfil/home/')),
     
 
