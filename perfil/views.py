@@ -4,7 +4,7 @@ from django.contrib import messages
 from django.contrib.messages import constants
 from .utils import calcula_total
 from extrato.models import Valores
-#from django.db.db.models import Sum
+from django.db.db.models import Sum
 
 
 # Create your views here.
