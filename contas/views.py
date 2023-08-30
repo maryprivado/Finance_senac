@@ -31,7 +31,7 @@ def definir_contas(request):
 
         messages.add_message(request, constants.SUCCESS, 'Conta cadastrada com sucesso')
         return redirect('/contas/definir_contas')
-    def ver_contas(request):
+def ver_contas(request):
         MES_ATUAL = datetime.now().month
         DIA_ATUAL = datetime.now().day
    
